@@ -2,9 +2,9 @@
   
     
 
-        create or replace transient table jaffle_db.lineage.column_lineage_denormalized
-         as
-        (
+create or replace table jaffle_db.lineage.column_lineage_denormalized
+ as
+(
 
 /*
 
