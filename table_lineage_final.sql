@@ -2,9 +2,9 @@
   
     
 
-        create or replace transient table jaffle_db.lineage.table_lineage_final
-         as
-        (
+create or replace table jaffle_db.lineage.table_lineage_final
+ as
+(
 
 with table_lineage as (
     select
